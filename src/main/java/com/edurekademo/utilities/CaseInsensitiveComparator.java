@@ -50,8 +50,8 @@ public class CaseInsensitiveComparator extends GenericComparator {
                 String returnType;
                 try {
                         if(this.targetMethod==null){
-                                v2=02;
                                 v1=o1;
+                                v2=02;
                                 returnType=o1.getClass().getName();
                         }else{
                                 v1=getValue(o1);
